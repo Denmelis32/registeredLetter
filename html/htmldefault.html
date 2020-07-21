@@ -4,17 +4,19 @@
 
     <style> 
 
-    div.hf{
-        position: absolute;
-        top: 980px;
-        left: 410px;
+    #titleMain {
+        margin-top: 10px;
     }
 
-       div.imgs{
-        position: absolute;
-        top: 0px;
-        left: 350px;
+    div.hf{
+        margin:10px;
     }
+
+    {% comment %}    div.imgs{
+        width: 600px;
+        top: 40px;
+        left: 410px;
+    } {% endcomment %}
     
     button.new {
     background: #4682B4;
@@ -63,45 +65,52 @@
     height:100px;
     background:#303030;
    }
+
+   #bodys {
+       width: 475px;
+        margin:auto;
+   }
     </style>
+
+    <div id="bodys"> 
    <div class="imgs">
 
-    <img src ="ling.jpg" height="40px" width="40px" >
+    <img src ="ling.jpg" height="40px" width="40px" id="iconMain" align="left">
     </div>
     <BR>
     <title>Hello
     </title>
      <div align="center">
-    <h3> Hello Dmiriy! Ваша учетная запись на Linguage успешно создана<BR> 
-    и активирована! </h3>
+    <h3 id="titleMain"><pre> Hello Dmiriy! Ваша учетная запись на Linguage 
+    успешно создана и активирована! </pre></h3>
     </div>
     </head>
     <body> 
     <div class="a">
-    <p text-align="left"> Воспользуйтесь нашим пробным звонком и поговорите с носителем<BR> 
+    <p align="justify"> Воспользуйтесь нашим пробным звонком и поговорите с носителем<BR> 
     английского языка, для которого он является родным. Вскоре мы<BR>
     сообщим вам о точном времени пробного звонка</p>
     </div>
     <TH bgcolor=white><BR>
     <div align="center">
-    <h1> Вы оцените то, что:</h1><BR>
+    <h1 > Вы оцените то, что:</h1><BR>
     </div>
     <div class="a">
         <OL class="h">
-            <LI > Можно легко разговаривать с носителем английского при любом уровне<BR>
+            <LI align="left"> Можно легко разговаривать с носителем английского при любом уровне<BR>
     владения языком. Страх "не понять" не станет для вас поводом<BR> 
     "отложить" занятие
     <BR>
-            <LI > Практика языка может быть не утомительной, а по-настоящему <BR>
+            <LI align="left"> Практика языка может быть не утомительной, а по-настоящему <BR>
     захватывающей
     <BR>
-            <LI > Различные диалекты английского - это лишь вопрос пивычки, которой<BR>
+            <LI align="left"> Различные диалекты английского - это лишь вопрос пивычки, которой<BR>
     необходимо овладеть, если вы серьезно настроены на изуение языка
     <BR>
     </div>
     <div align="center">
         </OL>
-    <table cellspacing=20 Cellpadding=10>
+    <table cellspacing=15 Cellpadding=10>
     <TR>
     <TH>
     <OL class="j">
@@ -148,12 +157,11 @@
      </div>
     <div align="center">
     <div id="rectangle">
-    </div>
-    </div>
-    <div class="hf"
+    <div class="hf" align="left">
      <h4>Приятного общения</h4>
     <p > It's fun to pracrice English!<BR>
     Best, Be Talky</p>
+    </div>
     </div>
     </body>
 </html>
